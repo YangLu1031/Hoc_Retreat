@@ -1,0 +1,8 @@
+0,Please do not delete the first line. Use ":" as delimiter of multiple contacts
+1,一家 傅錄男tony.altamira@gmail.com 650‐218‐9677:劉音詩 yinshiliu@yahoo.com 650-580-7136:黃繼才 jhuang1962@hotmail.com 650-430-6843:蔡明謀 ltsai@hoc1.org 408-799-4456
+2,二家 黄福機長老 kenlorettawong@yahoo.com 415-664-5111: 凌偉健 gwl888@yahoo.com 415-203-9923
+3,三家 張國光長老 mk_chang@yahoo.com 510-928-6186:蕭嘉全長老 chuck.hsiao@hoc3.org 650-269-5813:Pastor Paul Lee pmlee98@gmail.com 510-366-1006:張肇榮：ha32@hotmail.com 510-934-5934:黃俊 junhuangca@gmail.com 408-218-8947:胡正吾 allencwhu@gmail.com 510-953-1680:陳超榮 chairing.chen@gmail.com 510-585-8709
+4,四家 黄林 linhuang7@yahoo.com 408-387-2838:王葆珩 jwang20120728@gmail.com 408-334-3326:鄭惟鋒 tonyzheng@sbcglobal.net 408‐394-1874
+5,五家 赵武夷長老 wuyi.zhao@sbcglobal.net 408-623-4063:李增海 lizh@slac.stanford.edu 408‐931‐5822
+6,六家 李列泉 rich.lee@hoc6.org 510-378-8549:Dean Chao dean.chao@hoc6.org 408-459-8765
+7,七家 顏一品 Pastor.vilay@gmail.com 408‐583‐7243:谢持德 khsieh@gmail.com 650-336-4598

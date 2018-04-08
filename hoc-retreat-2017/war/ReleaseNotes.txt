@@ -1,0 +1,307 @@
+*********************************************************************************
+** For ALL releases: 
+**
+**  Please update the following code after extracting the source files:
+**
+**  -- choose appropriate email address for "default_email" & "default_admin_email"
+**     in RetreatRegistration and SubmitRegistration servlets (under src/guestbook/)
+**
+**  -- Modify 'application id" in war/WEB-INF/appengine-web.xml as below:
+**           <application>MyApplicationId</application>
+**
+*********************************************************************************
+
+V.28 release notes: 6/2/2010
+
+1. Reentered all chinese characters for email in SubmitRegistrationServlet (random code seen
+   in previous version) and tested
+
+======================================================================================
+V.27 release notes: 6/2/2010
+
+1. Revise the message re" "estimated" and "actual" registration fee on all pages and email.
+
+2. Fixed english translation re: "Twelve and above $135" (not $175)
+
+======================================================================================
+V.26 release notes: 5/28/2010
+
+1. Add video link to chinese home page
+
+======================================================================================
+V.25 release notes: 5/27/2010
+
+1. Add english contacts; add english theme 
+
+2. Fix english home page wording issues; make english workshops full name on home page
+
+3. Create login-1.txt, index-1.html and index-eng-1.html for used when online registration 
+   expires. Use them to replace login.txt, index.html & index-eng.html respectively.
+
+======================================================================================
+V.24 release notes: 5/27/2010
+
+1. Cosmetic changes on RegForm to use english word instead of chinese. Revise
+   english translations. Remove discount message for Christ-seekers.
+
+2. Add 3 new workshop codes to support 3 english workshops as below:
+   6: Is Faith compatible with Science (Dr. Paul Chien)
+   7: Money Matters (Mr. Sau-Wing Lam)
+   8: Jonah: His Crisis and Life’s Lessons (Dr. Albert Gaw)
+
+3. Restore all english page links in chinese pages
+
+4. Add english contact info in email for 5th HOC
+
+
+======================================================================================
+V.23 release notes: 5/25/2010
+
+1. Add english program contents (lack of "Theme")
+
+2. English main page and Registration Form with english contents are still isolated
+   due to incompleted info. They can only be accessed by referring direct addresses:
+   "index-eng.html" and "RegistrationForm2.jsp" respectively (demo is fine)
+
+3. Waiting more info from english congregation, specifically Theme & english Contacts
+
+4. Seminar topic numbers for english workshops are TBD.
+
+
+======================================================================================
+V.22 release notes: 5/24/2010
+
+1. Add reminding message about username/password on login page
+
+2. Minor name change to add "Online" wording in registration form
+
+======================================================================================
+V.21 release notes: 5/20/2010
+
+1. Fixed english home page width visual problem for IE7.
+
+2. Add hyperlinks of English Home on RegistrationForm, Confirmation, Ack, Admin
+   Home pages, ModifyRegForm, and SessionExpired pages. Also add "Registration 
+   Deadline" on top of RegistrationForm page.
+
+3. Hide englisg page links and info from user viewable pages (before english info 
+   can be completed). but admin pages still keep english links)
+
+4. Commented out english page link from all chinese pages. English page can still be 
+   accessed by directly referring its address "index-eng.html" such as 
+   "https://hoc-retreat.appspot.com/index-eng.html" but no longer accessible from 
+   chinese home page (can be restored later).
+
+5. The registration form page to support english program info is saved with
+   address "RegistrationForm2.jsp" and can be ONLY accessed with direct referring 
+   such as "https://hoc-retreat.appspot.com/RegistrationForm2.jsp" after user login.
+
+   Note that this can be used for english congregation to get idea how it looks like.
+
+6. Revise message re: 7/16/2010 as cut-off date for free charge on RegForm, Confirm, 
+   and ACK pages to avoid confusion. Added this message to email as well.
+
+   Note that all Admin-related page will NOT see this new message.
+
+7. Removed debug code re: system console output from Utils and LoginAuth files
+
+8. Corrected the order of special topics (3) & (4) on home page.
+
+9. Latest Chinese Schedule PDF file based on V3 chinese schedule
+
+10. Commented out "Medical Liability Release Form" for now. Can be restored when info 
+    ready.
+   
+
+======================================================================================
+V.20 release notes: 5/17/2010
+
+1. Add english home page. Note: all placeholders are temporary. To be filled up later.
+
+2. Redesign RegistrationForm.jsp to accomodate english topics and add translations
+
+3. The hyperlink to go back to "Home Page" will always go to Chinese home page
+
+4. Note: Medical, Liability Form is still missing
+
+5. Fixed the home page info: adding english session for some special topics
+
+6. Fixed the order of special topics (3) & (4) in home page schedule
+
+
+======================================================================================
+V.19 release notes: 5/15/2010
+
+1. Fixed IE7 display issue on home page re: squeeze right column area 
+
+2. Minor bug fix for login: 
+   (a)  clear session variable "errorMsg" in login2.jsp after displaying it, 
+	otherwise the errorMsg will be always displayed subsequently
+   (b)  Minor enhancement: make only one error message without distinguishing user 
+	name or password error
+
+4. (a) Notes on Registration Form is updated based on the latest retreat info.
+   (b) Order/Number of chinese workshop topics is changed based on the latest info
+
+5. Support requirements from 5/15/2010 coworker meeting:
+   (1) Confirmation email include the total price
+   (2) Confirmation email includes the participant's home's coworker contact info (For 
+	exmplae, hoc5 participant receives the hoc5 coworker contact in the email). 	
+ 	Note: the coworker contact is not finalized. The current name is for temporary use.
+	 all contacts are stored at war/CoworkerContact.txt
+	Note: when DELETE ALL (registration removed), there will be no contact info in
+	 email
+   (3) In email and ACK page, notes are added to remind participants to print out the page
+	and bring it with the payment to church coworkers
+   (4) Revise the message on registration form re: 三歲至十一歲不佔床位者 $75;佔床位者 $135
+   (5) Retreat coworker contact list is accessible on home page
+
+
+8. Fix bug re: crash when user refresh a registration while server reload
+
+9. Support "file reading in UTF-8" on Utils.java. This is to support reading both login 
+   and coworker contact info, which are saved in text files
+
+10. Add placeholder for Medical Liability Release Form on home page
+
+
+======================================================================================
+V.18 release notes: 5/13/2010
+
+1. "login.jsp" is removed from the repository, please remember to remove it from 
+   your workspace. Keeping that file online could be a security hole.
+
+2. Added "Minimum Broswer Requirements" message in home page
+
+3. Fixed the home page display issue on IE6 browser
+
+4. *Added new feature for hoc admin: query based on HOC_Family
+
+5. Added chinese retreat poster on home page
+
+
+======================================================================================
+V.17 release notes: 5/13/2010
+
+1. Fixed bug re: entries read from database is out-of-order on "sequence_number" 
+   (online only)
+
+2. On home page index.html, ALL hyperlink clicks will open a new browser window
+
+3. On home page index.html, remove "English Workshop" table. Wait for retreat coworker
+   to provide info before putting it back
+
+4. Open issue: On home page iindex.html, the "Contact Us" link is empty, pending retreat
+   coworker to provide info to fix it
+
+5. On Confirmation page, a warning line will be blinking if ALL participants in the same
+   confirmation_number are deleted. This works for firefox only. For unknown reason, IE
+   & Chrome does not support it.
+
+6. In email, adding english for those lines with chinese only. Also make email SUBJECT
+   different for the following cases:
+	(a) new registration:		"Your registration has been received"
+	(b) registration modified	"Registration (<confirm_num>) has been modified"
+	(c) registration deleted 	"Registration (<confirm_num>) has been DELETED"
+
+======================================================================================
+V.16 release notes: 5/12/2010
+
+1. New logic for confirmation email:
+(1) if user enters email(s), send TO the first email entered, AND CC: admin
+(2) if no user email entered, send TO admin
+for above (1)(2) cases, the ACK page only shows the "TO:" email recipient (not "CC:")
+(3) if admin modify a record, send email TO admin only (not user even though user email present)
+for (3), the ACK page will show only "Email has been sent to <admin email>"
+
+2. At home page, the online registration button contains both Chinese & english title. 
+
+3. Fixed a problem only exist on real site: when admin deleting all participants, the 
+   deletion always fails and come back to ModReg page
+
+4. Fixed a bug: not sending Notes in the confirmation email
+
+5. Some cosmetic changes in the confirmation email to show the difference btw new entries ot
+   modified entries 
+
+6. Minor bug fixed: when all participants deleted, the "notes" still present in the
+   Confirmation and Acknowledgement pages
+
+7. Add "default_admin_email" in SubmitRegistration servlet, please remember to set it up
+   before going online (for admin to receive email)
+
+8. Open issue: When the record is changed, code only populated the modified time but the 
+   timestamp field is blank
+
+9. Open issue: the entries read from database may be out-of-order (not following the order 
+   of "sequence_number" (online only)
+
+
+======================================================================================
+V.15 release notes:
+1. Do not display "null" when no notes present
+
+======================================================================================
+V.14 release notes:
+1. ParticipantList.jsp is working, header and footer section is added
+
+======================================================================================
+V.13 release notes:
+1. bug fix: "HOC family" is not checked at the very first time user entry after login
+
+2. home page updated according to the latest retreat coworker's doc
+
+3. Registration fee is not finalized, waiting for retreat coworker to clarify
+
+4. ParticipantList.jsp is not working yet.
+
+======================================================================================
+V.12 release Notes:
+1. the zip file does not include "lib/*". If you extract it to a new place, please 
+   remember to copy lib files from your existing workspace. 
+
+2. Add english messages for most of the pages
+
+3. Display "Estimated Registration Fee" in confirmation & acknowledgement pages
+
+4. Revise Notes in RegistrationForm.jsp
+
+5. Some other cosmetic changes
+
+6. Home page (index.html) changes according to latest info. 
+
+======================================================================================
+V.11 Release Notes:
+1. This version contains ALL files under Guestbook project. 
+   Please extract all files to your local workspace.
+
+2. The code works in local test machine, but not online yet.
+
+3. After extraction, do the following two things (for online only).
+
+   (1) update war/WEB-INF/appengine-web.xml with your own application id
+   (2) update src/guestbook/SubmitRegistrationServlet.java, the "default_email" with your email
+
+   Do it now because you know forget it later when trying to upload it online
+
+4. You may also want to remove all local database to get a clean start, by deleting 
+   Guestbook\war\WEB-INF\appengine-generated\*
+
+5. 2 major new features are supported:
+
+   A. support "administrator" role, who can modify participant list based on confirmation number
+	It can add/delete/modify participants in the same confirmation number
+	When all participants in the same confirmation number are deleted, 
+		this group will be forever gone
+
+   B. user can input "Notes" per registration form (confirmation number)
+	This "notes" data is stored into database in another table called "ParticipantNotes"
+
+6. The following is the list of user accounts allowed:	
+	hoc1 - hoc6 (password the same as username) (6 user names) 
+	hoc1admin - hoc6admin (same password: admin) (6 admin users) (privileged users)
+
+7. If you encounter crash or error, please copy the crash dump and record your operation steps 
+   before reporting the problem. If possible, it is suggested you keep your own bug list and
+   share with the team.
+
