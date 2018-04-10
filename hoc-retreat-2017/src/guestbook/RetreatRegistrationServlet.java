@@ -1,4 +1,4 @@
-﻿package guestbook;
+package guestbook;
 
 import java.io.IOException;
 import java.util.*;

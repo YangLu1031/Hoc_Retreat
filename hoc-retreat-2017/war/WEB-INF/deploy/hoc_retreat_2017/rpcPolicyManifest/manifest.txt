@@ -1,3 +1,0 @@
-# Module hoc_retreat_2017
-# RPC service class, partial path of RPC policy file
-guestbook.client.GreetingService, 2A3E7DD40E99B76F3667497F6424B668.gwt.rpc
