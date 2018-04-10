@@ -1,12 +1,15 @@
 package guestbook;
 
-import java.util.Calendar;
-import java.util.HashMap;
-import java.text.SimpleDateFormat;
 //import java.io.BufferedReader;
 //import java.io.FileReader;
-import java.io.*;
-import java.sql.*;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.HashMap;
 
 public class Utils {
 
