@@ -1,9 +1,7 @@
 package guestbook;
 
 import java.io.Serializable;
-import java.sql.*;
- 
-import java.util.Date; 
+import java.util.Date;
 
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.PersistenceCapable;
