@@ -1,0 +1,7 @@
+hoc1admin,admin
+hoc2admin,admin
+hoc3admin,admin
+hoc4admin,admin
+hoc5admin,admin
+hoc6admin,admin
+hoc7admin,admin

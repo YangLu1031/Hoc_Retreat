@@ -1,0 +1,13 @@
+indexes:
+
+- kind: Participant
+  ancestor: no
+  properties:
+  - name: confirmation_number
+      direction: asc
+  - name: del
+    direction: asc
+  - name: sequence_number
+    direction: asc
+    
+    

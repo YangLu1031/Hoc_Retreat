@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>2018 HOC Summer Retreat</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" type="text/css" id="theme" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>  
+</head>
+
+<body>
+  <div id="main">
+    <header>
+        <div id="header"></div>
+    </header>
+    <div id="site_content">
+    <div id="sidebar_container"></div>
+      
+     <div>
+	 </div>
+      <div class="content">
+        <h1>退修會宣传录像</h1>
+        <div class="content_item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qp9b29lXIis" frameborder="0" allowfullscreen></iframe>
+         </div>
+        <div class="content_item">
+            <iframe width="560" height="315" src="https://drive.google.com/file/d/171m5aV8TDvoT8albtHQiwHciGEvFjMQa/preview" frameborder="0" allowfullscreen></iframe>
+         </div>
+        <div class="content_item">
+            <iframe width="560" height="315" src="https://drive.google.com/file/d/1Cged6RCFRo8vf0JCrTQxrpzk0NiRS0BO/preview" frameborder="0" allowfullscreen></iframe>
+         </div>         
+      </div>
+    </div>
+    <footer>
+      <div id="footer"></div>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $('#header').load('templates/headerTemplate.html');
+        $('#footer').load('templates/footer.html');
+        $('#sidebar_container').load('templates/sidebar.html');
+        $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
