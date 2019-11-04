@@ -122,7 +122,7 @@ public class Utils {
 				  if ((need_bed.compareTo("N") == 0) && (prog_code.compareTo("F") == 0 || prog_code.compareTo("P") == 0 
 						  || prog_code.compareTo("S") == 0 || prog_code.compareTo("N") == 0))
 				  {
-					  return 90;
+					  return 115;
 				  }
 				  else
 				  {
@@ -142,9 +142,13 @@ public class Utils {
 		  {
 			  return "English";
 		  }
-		  else if ( meynsftb.compareTo("Y") == 0 )
+		  else if ( meynsftb.compareTo("D") == 0 )
 		  {
-			  return "12~18 yr.";
+			  return "Grade 6~8";
+		  }
+		  else if ( meynsftb.compareTo("H") == 0 )
+		  {
+			  return "Grade 9~12";
 		  }
 		  else if ( meynsftb.compareTo("N") == 0 )
 		  {
@@ -158,11 +162,11 @@ public class Utils {
 		  {
 			  return "5~6 yr.";
 		  }
-		  else if ( meynsftb.compareTo("T") == 0 )
+		  else if ( meynsftb.compareTo("P") == 0 )
 		  {
 			  return "4 yr.";
 		  }
-		  else if ( meynsftb.compareTo("R") == 0 )
+		  else if ( meynsftb.compareTo("T") == 0 )
 		  {
 			  return "3 yr.";
 		  }
@@ -181,25 +185,29 @@ public class Utils {
 	  {
       if ( t1234.compareTo("1")== 0 )
 		  {
-			  return "認識阿兹海默症十大警訊及早期偵測的重要性";
+			  return "盛李愛珍師母 - 國際關懷協會事工";
 		  }
 		  else if ( t1234.compareTo("2") == 0 )
 		  {
-			  return "執子之手，與子偕老 ～ 從現代實証心理諮商看如何經營幸福婚姻";
+			  return "李林靜芝師母 - 家庭與宣教";
 		  }
 		  else if ( t1234.compareTo("3") == 0 )
 		  {
-			  return "JNX敬拜事工培訓";
+			  return "盛行楚宣教士 - 柬埔寨的挑戰";
 		  }
 		  else if ( t1234.compareTo("4") == 0 )
 		  {
+			  return "但以理/百合宣教士 - 西亞的呼聲";
+		  }	
+		  else if ( t1234.compareTo("5") == 0 )
+		  {
 			  return "English Youth Program";
 		  }		 
-		  else if ( t1234.compareTo("5") == 0 )
+		  else if ( t1234.compareTo("6") == 0 )
 		  {
 			  return "English Adult Program";
 		  }
-		  else if ( t1234.compareTo("6") == 0 )
+		  else if ( t1234.compareTo("7") == 0 )
 		  {
 			  return "未定 Undecided";
 		  }

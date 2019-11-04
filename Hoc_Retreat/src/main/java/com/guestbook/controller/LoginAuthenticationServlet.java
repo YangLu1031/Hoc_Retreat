@@ -28,6 +28,7 @@ public class LoginAuthenticationServlet extends HttpServlet {
 			.getHashMapFromFile("login-admin.txt", true); //bpan: exit() if file not found //login-admin.txt
 	
 	// To enable non-admin user login, change the above file name to login.txt
+	// To disable non-admin user login, change the above file name to login-admin.txt
 
 	/**
 	 * @see HttpServlet#HttpServlet()

@@ -7,7 +7,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>2018 退修會報名登入</title>
+<title>2019 退修會報名登入</title>
 <link href="stylesheets/retreat.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!-- /* specific for this page */
@@ -33,7 +33,7 @@ if (window.top !== window.self && (is_ie || is_safari)) {
 <body class="oneColLiqCtrHdr">
 <div id="container">
 <div id="header">
-<h1>2018 基督之家聯合退修會</h1>
+<h1>2019 基督之家聯合退修會</h1>
 <br />
 <h3>The Home of Christ Church Joint Retreat Conference</h3>
 <!-- end #header --></div>
@@ -45,9 +45,9 @@ if (window.top !== window.self && (is_ie || is_safari)) {
 <legend><span
 	style="text-align: left; font-size: large">基督之家聯合退修會網路報名 Online Registration</span></legend>
 <h1>&nbsp;</h1><h2><span class="font-large">您好！歡迎您使用網路報名，請輸入用戶名和密碼<br />
-<!--   (用戶名和密碼印在報名表的注意事項欄)
-  網路報名已於六月三十日截止，目前只有系統管理員可登入。<br>The online registration ended on 6/30/2018 . Only the hoc admin login is still available
- -->
+<!--  (用戶名和密碼印在報名表的注意事項欄) -->
+  網路報名已於六月三十日截止，目前只有系統管理員可登入。<br>The online registration ended on 6/30/2019 . Only the hoc admin login is still available
+ 
  </h2></span></p>
 <p><span style="font-size:18px;">Hello! Welcome to register on line, please log in.</span><br />
   (username/password is listed on registration form)</p>
@@ -87,7 +87,7 @@ if (window.top !== window.self && (is_ie || is_safari)) {
 <!-- end #mainContent --></div>
 
 <div id="footer">
-<p>基督之家製作 Copyright 2018 , The Home of Christ Church. All rights
+<p>基督之家製作 Copyright 2019 , The Home of Christ Church. All rights
 reserved.</p>
 <!-- end #footer --></div>
 <!-- end #container --></div>

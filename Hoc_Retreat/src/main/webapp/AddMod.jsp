@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" /> 
 <meta http-equiv="Pragma" content="no-cache" /> 
-<title>2018 退修會系統管理員主頁</title>
+<title>2019 退修會系統管理員主頁</title>
 <link href="stylesheets/retreat.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
@@ -87,7 +87,7 @@ div.color_query {
 <body class="oneColLiqCtrHdr">
 <div id="container">
   <div id="header">
-    <h1>2018 基督之家聯合退修會</h1><br />
+    <h1>2019 基督之家聯合退修會</h1><br />
       <h3>The Home of Christ Church Joint Retreat Conference    </h3>
   <!-- end #header --></div>
   <div id="mainContent">
@@ -248,7 +248,7 @@ alert("Administration Priviledge Needed!");
 	<!-- end #mainContent --></div>
     
   <div id="footer">
-    <p>基督之家製作 Copyright 2018 , The Home of Christ Church. All rights reserved.</p>
+    <p>基督之家製作 Copyright 2019 , The Home of Christ Church. All rights reserved.</p>
   <!-- end #footer --></div>
 <!-- end #container --></div>
 </body>

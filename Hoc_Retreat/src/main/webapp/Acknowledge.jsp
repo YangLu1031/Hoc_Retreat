@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" /> 
 <meta http-equiv="Pragma" content="no-cache" /> 
-<title>HOC Retreat 2018 - 完成</title>
+<title>HOC Retreat 2019 - 完成</title>
 <link href="stylesheets/retreat.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
@@ -41,7 +41,7 @@ div.cost {
 
 <div id="container">
   <div id="header">
-    <h1>2018 基督之家聯合退修會報名表</h1><br />
+    <h1>2019 基督之家聯合退修會報名表</h1><br />
     <h3>The Home of Christ Church Joint Retreat Conference</h3>
   <!-- end #header --></div>
   <div id="mainContent">
@@ -190,24 +190,25 @@ The modifications have been completed.</p>
 				switch(pcode) {
 					case 'M': prog = "中文成人"; break;
 					case 'E': prog = "English Adult"; break;
-					case 'Y': prog = "12~18 yr"; break;
+					case 'H': prog = "Grade 9~12"; break;
+					case 'D': prog = "Grade 6~8"; break;
 					case 'N': prog = "9-11 yr"; break;
 					case 'S': prog = "7-8 yr"; break;
 					case 'F': prog = "5-6 yr"; break;
-					case 'T': prog = "4 yr"; break;
-					case 'R': prog = "3 yr"; break;
+					case 'P': prog = "4 yr"; break;
+					case 'T': prog = "3 yr"; break;
 					case 'B': prog = "0-2 yr"; break;
 					default:  prog = "" + pcode;
 				} /*switch*/
 				pcode = participant.getTopic().charAt(0);
 				switch(pcode) {
-					case '1': stopic = "認識阿兹海默症十大警訊及早期偵測的重要性"; break;
-					case '2': stopic = "執子之手，與子偕老 ～ 從現代實証心理諮商看如何經營幸福婚姻"; break;
-					case '3': stopic = "JNX敬拜事工培訓"; break;
-					// case '5': stopic = "English Youth Program"; break;
-					case '6': stopic = "English Youth Program"; break;
-					case '7': stopic = "English Adult Program"; break;
-					case '8': stopic = "未定 Undecided"; break;
+					case '1': stopic = "盛李愛珍師母 - 國際關懷協會事工"; break;
+					case '2': stopic = "李林靜芝師母 - 家庭與宣教"; break;
+					case '3': stopic = "盛行楚宣教士 - 柬埔寨的挑戰"; break;
+					case '4': stopic = "但以理/百合宣教士 - 西亞的呼聲"; break;
+					case '5': stopic = "English Youth Program"; break;
+					case '6': stopic = "English Adult Program"; break;
+					case '7': stopic = "未定 Undecided"; break;
 					case 'X': stopic = "N/A"; break;
 					default:  stopic = "" + pcode;
 				} /*switch*/
@@ -336,7 +337,7 @@ The modifications have been completed.</p>
   <!-- end #mainContent -->
   </div>
   <div id="footer">
-    <p>基督之家製作 Copyright 2016, The Home of Christ Church. All rights reserved.</p>
+    <p>基督之家製作 Copyright 2019, The Home of Christ Church. All rights reserved.</p>
   <!-- end #footer --></div>
 <!-- end #container --></div>
 </body>

@@ -5,6 +5,7 @@ import java.util.Date;
 
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.Key;
+import com.google.appengine.api.datastore.KeyFactory;
 import com.guestbook.utils.Utils;
 
 public class Participant implements Serializable
@@ -59,6 +60,7 @@ public class Participant implements Serializable
 		topic = topic_in;
 		bed = bed_in;
 		bus = bus_in;
+		
 	}
 	
 	public Participant(Entity participant){
@@ -322,7 +324,7 @@ public class Participant implements Serializable
 
 	
 	public Entity toEntity(){
-		Entity participant = new Entity("Participant", this.confirmation_number);
+		Entity participant = new Entity("Participant", this.confirmation_number + "-" + this.sequence_number);
 		participant.setProperty("confirmation_number", this.confirmation_number);
 		participant.setProperty("family_id", this.family_id);
 		participant.setProperty("sequence_number", this.sequence_number);

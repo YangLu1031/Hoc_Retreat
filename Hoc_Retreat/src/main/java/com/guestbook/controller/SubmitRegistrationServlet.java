@@ -26,6 +26,7 @@ import com.guestbook.model.Participant;
 import com.guestbook.model.ParticipantNotes;
 import com.guestbook.model.UserPrivilege;
 import com.guestbook.utils.Utils; 
+import com.google.appengine.api.datastore.Key;
 
 
 /**
@@ -230,8 +231,7 @@ public class SubmitRegistrationServlet extends HttpServlet {
 							
 			            	//System.out.println("Submit: message:" + participant.toString());
 			                dpm.addEntity(participant); 
-			            } catch (Exception e)
-			            {
+			 			} catch (Exception e) {
 			            	log.severe("Submit Servlet("+confirm_no+"): Exception while storing " +
 			            			"participant to database. Error: "+e.getMessage());
 			            	e.printStackTrace();
@@ -259,7 +259,9 @@ public class SubmitRegistrationServlet extends HttpServlet {
 							pnotes.setChangedBy(user_id);
 							
 			            	//System.out.println("Submit: notes content:" + pnotes.toString());
-			                dpm.addEntity(pnotes); 
+			                Key entKey = dpm.addEntity(pnotes); 
+			                
+			                
 			            } catch (Exception e)
 			            {
 			            	log.severe("Submit Servlet("+confirm_no+"): Exception while storing Notes " +

@@ -15,7 +15,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>HOC Retreat 2018 - Registration Page</title>
+<title>HOC Retreat 2019 - Registration Page</title>
 <link href="stylesheets/retreat.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!-- /* specific for this page */
@@ -130,8 +130,8 @@ function programChange(selectObj,SerialN)
   else
   {
 	// array of possible countries in the same order as they appear in the country selection list 
-	  var vList = ["認識阿兹海默症十大警訊及早期偵測的重要性","執子之手，與子偕老 ～ 從現代實証心理諮商看如何經營幸福婚姻","JNX敬拜事工培訓","English Youth Program","English Adult Program","未定 Undecided"];
-	  
+	  var vList = ["盛李愛珍師母 - 國際關懷協會事工","李林靜芝師母 - 家庭與宣教","盛行楚宣教士 - 柬埔寨的挑戰","但以理/百合宣教士 - 西亞的呼聲","English Youth Program","English Adult Program","未定 Undecided", "N/A"];
+	    
       // Adjust the topic select options	
 	  for (var i=0; i<vList.length+1; i++) { 
 		  newOption = document.createElement("option");
@@ -180,7 +180,7 @@ function programChange(selectObj,SerialN)
 %>
 <div id="container">
 <div id="header">
-<h1><strong>2018 基督之家聯合退修會報名</strong></h1>
+<h1><strong>2019 基督之家聯合退修會報名</strong></h1>
 <br />
 <h3>The Home of Christ Church Joint Retreat Conference Online Registration</h3>
 <!-- end #header --></div>
@@ -204,7 +204,7 @@ function programChange(selectObj,SerialN)
   </td>
   </tr>
   <tr>
-    <td style="font-size:18px; font-weight:bold; padding-left:8px;">報名截止日期 Registration Deadline: 6/30/2018<br />
+    <td style="font-size:18px; font-weight:bold; padding-left:8px;">報名截止日期 Registration Deadline: 6/30/2019<br />
     	<span style="font-size:small; font-weight:normal;">額滿即止，請從速報名。 Space is limited, please register soon.</span></td>
 
     <td align="right" valign="bottom" style="font-size:x-small; padding-right:8px;"><!-- <a href="index.html">回首頁 Home</a>&nbsp;&nbsp;&nbsp;<a href="index-eng.html">English Home</a>&nbsp;&nbsp;&nbsp; --> 
@@ -219,7 +219,7 @@ function programChange(selectObj,SerialN)
 
 <table width="100%" border="0" cellspacing="5" cellpadding="3">
   <tr>
-    <td width="33%" align="left" valign="middle"><div id="reg-general-title"> 2018 Summer Retreat</div></td>
+    <td width="33%" align="left" valign="middle"><div id="reg-general-title"> 2019 Summer Retreat</div></td>
     <td width="34%" align="left" valign="middle"><div id="reg-chinese-title">中文課程</div></td>
     <td align="left" valign="middle"><div id="reg-english-title">English Program</div></td>
   </tr>
@@ -238,8 +238,8 @@ function programChange(selectObj,SerialN)
                 <td bgcolor="#CCCCCC"><div class="infoTitle">時間 Time:</div></td>
               </tr>
               <tr>
-                <td>8/3 Friday 12:30AM - 
-8/5 Sunday 1PM</td>
+                <td>8/2 Friday 12:30AM - 
+8/4 Sunday 1PM</td>
               </tr>
               <tr>
                 <td bgcolor="#CCCCCC"><div class="infoTitle">地點 Place:</div></td>
@@ -258,15 +258,16 @@ www.sonoma.edu/cec </td>
     <div id="reg-chinese-body" class="infoBody">
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="83" rowspan="3" valign="top"><img src="images/pastorDai.jpg" alt="" width="80"/></td>
+        <td width="83" rowspan="3" valign="top"><img src="images/pastorLee.png" alt="" width="80"/></td>
         <td valign="top">中文主題
         	</td>
+        <td width="83" rowspan="3" valign="top" halign="right"><img src="images/PastorQiu.png" alt="" width="80"/></td>
       </tr>
       <tr>
-        <td valign="top"><span style="font-size:large; font-weight:bold; color:blue;">復興祢的作為</span></td>
+        <td valign="top"><span style="font-size:large; font-weight:bold; color:blue;">更新與突破－普世宣教的省思</span></td>
       </tr>
       <tr>
-      <td valign="top">主題講員：戴继宗牧師</td>
+      <td valign="top">主題講員：李秀全牧師 邱志健牧師</td>
       </tr>
       </table>
       <div class="speakerName">&nbsp;<br /><span style="font-size:9px;">&nbsp;</span></div>
@@ -276,15 +277,19 @@ www.sonoma.edu/cec </td>
           </tr>
        	<tr>
          	<td>1.</td>
-         	<td><span class="ClassItem">歐小榮博士 - 認識阿兹海默症十大警訊及早期偵測的重要性</span></td>
+         	<td><span class="ClassItem">盛李愛珍師母 - 國際關懷協會事工</span></td>
         </tr>
       	<tr>
            	<td>2.</td>
-        	<td><span class="ClassItem">郭世孝,簡艷秋 - 執子之手，與子偕老 ～ 從現代實証心理諮商看如何經營幸福婚姻</span></td>
+        	<td><span class="ClassItem">李林靜芝師母 - 家庭與宣教</span></td>
         </tr>  
         <tr>
           	<td>3.</td>
-          	<td><span class="ClassItem">JNX音樂敬拜事工團隊 - 敬拜事工培訓</span></td>
+          	<td><span class="ClassItem">盛行楚宣教士 - 柬埔寨的挑戰</span></td>
+        </tr>
+        <tr>
+          	<td>4.</td>
+          	<td><span class="ClassItem">但以理/百合宣教士 - 西亞的呼聲</span></td>
         </tr>
       </table>
 <br />
@@ -293,28 +298,18 @@ www.sonoma.edu/cec </td>
     <td valign="top"><div id="reg-english-body" class="infoBody">
      <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="83" rowspan="3" valign="top"><img src="images/RevShin.jpg" alt="" width="80" /></td>
+        <td width="83" rowspan="3" valign="top"><img src="images/PastorKim.png" alt="" width="80" /></td>
         <td valign="top">Theme: 
         	</td>
       </tr>
       <tr>
-        <td valign="top"><span style="font-size:large; font-weight:bold; color:blue;">Family Matters</span></td>
+        <td valign="top"><span style="font-size:large; font-weight:bold; color:blue;">More to this Life</span></td>
       </tr>
       <tr>
-      <td valign="top">Speaker: Rev. Dr.Benjamin Shin</td>
+      <td valign="top">Speaker: Pastor John Kim</td>
       </tr>
       </table>
-     <table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="83" rowspan="3" valign="top"><img src="images/RevDo.png" alt="" width="80" /></td>
-      </tr>
-      <tr>
-        <td valign="top"><span style="font-size:large; font-weight:bold; color:blue;">Follow Me</span></td>
-      </tr>
-      <tr>
-      <td valign="top">Speaker: Rev. Tung Do</td>
-      </tr>
-      </table>
+    
 			<!--
         <div class="speakerName">&nbsp;<br /><span style="font-size:9px;">&nbsp;</span></div>
       <table width="100%" border="1" cellspacing="0" cellpadding="1">
@@ -387,7 +382,7 @@ www.sonoma.edu/cec </td>
 <div id="RegFormBlock">
 <font size="1">&nbsp;<br />
 </font>
-<span style="font-weight:bold; font-size:24px;">2018 退修會網路報名表 Online Retreat Registration Form</span>
+<span style="font-weight:bold; font-size:24px;">2019 退修會網路報名表 Online Retreat Registration Form</span>
 <FORM action="/RetreatRegistration" method="post">
 <%
 	String hoc_family = "";
@@ -532,23 +527,25 @@ www.sonoma.edu/cec </td>
 				<OPTION></OPTION>
 				<OPTION value="M">中文成人</OPTION>
 				<OPTION value="E">English Adult</OPTION>
-				<OPTION value="Y">12~18 yr</OPTION>
+				<OPTION value="H">Grade 9~12</OPTION>
+				<OPTION value="D">Grade 6~8</OPTION>
 				<OPTION value="N">9~11 yr</OPTION>
 				<OPTION value="S">7~8 yr</OPTION>
 				<OPTION value="F">5~6 yr</OPTION>
-				<OPTION value="T">4 yr</OPTION>
-				<OPTION value="R">3 yr</OPTION>
+				<OPTION value="P">4 yr</OPTION>
+				<OPTION value="T">3 yr</OPTION>
 				<OPTION value="B">0~2 yr</OPTION>
 			</SELECT></TH>
 			<TH align="center" valign="middle"><select name="Topic_<%=i%>"
 				size="1" id="Topic_<%=i%>">
 			  <option></option>
-			  <option value="1">認識阿兹海默症十大警訊及早期偵測的重要性</option>		    
-			  <option value="2">執子之手，與子偕老 ～ 從現代實証心理諮商看如何經營幸福婚姻</option>
-			  <option value="3">JNX敬拜事工培訓</option>
-			  <option value="4">English Youth Program</option>
-			  <option value="5">English Adult Program</option>
-			  <option value="6">未定 Undecided</option>
+			  <option value="1">盛李愛珍師母 - 國際關懷協會事工</option>		    
+			  <option value="2">李林靜芝師母 - 家庭與宣教</option>
+			  <option value="3">盛行楚宣教士 - 柬埔寨的挑戰</option>
+			  <option value="4">但以理/百合宣教士 - 西亞的呼聲</option>
+			  <option value="5">English Youth Program</option>
+			  <option value="6">English Adult Program</option>
+			  <option value="7">未定 Undecided</option>
 			  <option value="X">N/A</option>
 			  </select></TH>
         
@@ -606,7 +603,8 @@ www.sonoma.edu/cec </td>
 				String noSelectionPC = "";
 							String isMPC = "";
 							String isEPC = "";
-							String isYPC = "";
+							String isHPC = "";
+							String isDPC = "";
 							String isNPC = "";
 							String isSPC = "";
 							String isFPC = "";
@@ -617,8 +615,10 @@ www.sonoma.edu/cec </td>
 								isMPC = "selected=\"selected\"";
 							} else if (participant.getProgram().compareTo("E") == 0) {
 								isEPC = "selected=\"selected\"";
-							} else if (participant.getProgram().compareTo("Y") == 0) {
-								isYPC = "selected=\"selected\"";
+							} else if (participant.getProgram().compareTo("H") == 0) {
+								isHPC = "selected=\"selected\"";
+							} else if (participant.getProgram().compareTo("D") == 0) {
+								isDPC = "selected=\"selected\"";
 							} else if (participant.getProgram().compareTo("N") == 0) {
 								isNPC = "selected=\"selected\"";
 							} else if (participant.getProgram().compareTo("S") == 0) {
@@ -638,7 +638,8 @@ www.sonoma.edu/cec </td>
 				<OPTION <%=noSelectionPC%>></OPTION>
 				<OPTION value="M" <%=isMPC%>>中文成人</OPTION>
 				<OPTION value="E" <%=isEPC%>>English Adult</OPTION>
-				<OPTION value="Y" <%=isYPC%>>12~18 yr</OPTION>
+				<OPTION value="H" <%=isHPC%>>Grade 9~12</OPTION>
+				<OPTION value="D" <%=isDPC%>>Grade 6-8</OPTION>
 				<OPTION value="N" <%=isNPC%>>9~11 yr</OPTION>
 				<OPTION value="S" <%=isSPC%>>7~8 yr</OPTION>
 				<OPTION value="F" <%=isFPC%>>5~6 yr</OPTION>
@@ -695,12 +696,14 @@ www.sonoma.edu/cec </td>
 	    
 %>
 		<OPTION <%=noSelectionT%>></OPTION>
-		<OPTION value="1" <%=T1%>>認識阿兹海默症十大警訊及早期偵測的重要性</OPTION>
-		<OPTION value="2" <%=T2%>>執子之手，與子偕老 ～ 從現代實証心理諮商看如何經營幸福婚姻</OPTION>
-		<OPTION value="3" <%=T3%>>JNX敬拜事工培訓</OPTION>
-		<OPTION value="4" <%=T4%>>English Youth Program</OPTION>
-	  	<option value="5" <%=T5%>>English Adult Program</option>
-	  	<option value="6" <%=T6%>>未定 Undecided</option>
+		<OPTION value="1" <%=T1%>>盛李愛珍師母 - 國際關懷協會事工/OPTION>
+		<OPTION value="2" <%=T2%>>李林靜芝師母 - 家庭與宣教</OPTION>
+		<OPTION value="3" <%=T3%>>盛行楚宣教士 - 柬埔寨的挑戰</OPTION>
+		<OPTION value="4" <%=T4%>>但以理/百合宣教士 - 西亞的呼聲</OPTION>
+		<OPTION value="5" <%=T5%>>English Youth Program</OPTION>
+	  	<option value="6" <%=T6%>>English Adult Program</option>
+	  	<option value="7" <%=T7%>>未定 Undecided</option>
+	  	<OPTION value="X" <%=T8%>>N/A</OPTION>
 <%
 				}
 %>
@@ -801,11 +804,11 @@ www.sonoma.edu/cec </td>
 		</TR>
 		<TR>
 		  <TD align="left" valign="top">1.</TD>
-          <td><strong>報名費用</strong>：<span lang="ZH-TW" xml:lang="ZH-TW">2018年7月15日以前未滿</span><span lang="ZH-CN" xml:lang="ZH-CN">四</span><span lang="ZH-TW" xml:lang="ZH-TW">歲者</span>免費。四歲至十一歲不佔床位者 $90；佔床位者  $170。12歲以上者 $170。各家自行設定折扣方式。預估實際支出每人$230。 報名截止日期6/30/2018，先到先得，額滿即止。 <span class="font-red"></strong></TD>
+          <td><strong>報名費用</strong>：<span lang="ZH-TW" xml:lang="ZH-TW">2019年7月15日以前未滿</span><span lang="ZH-CN" xml:lang="ZH-CN">四</span><span lang="ZH-TW" xml:lang="ZH-TW">歲者</span>免費。四歲至十一歲不佔床位者 $115；佔床位者  $170。12歲以上者 $170。各家自行設定折扣方式。預估實際支出每人$230。 報名截止日期6/30/2019，先到先得，額滿即止。 <span class="font-red"></strong></TD>
 	  </TR>
 		<TR>
 		  <TD align="left" valign="top">&nbsp;</TD>
-          <td><span title=""><strong>Registration Fee</strong>: Children below 4 years of age before 7/15/2018, FREE. From 4 years to 11 years but occupying a bed, $170 (not occupying a bed, $90). Twelve years and above, $170. Estimated actual expenditures per person $230. Registration deadline 6/30/2018, on a first-come, first-served basis. </span></TD>
+          <td><span title=""><strong>Registration Fee</strong>: Children below 4 years of age before 7/15/2019, FREE. From 4 years to 11 years but occupying a bed, $170 (not occupying a bed, $115). Twelve years and above, $170. Estimated actual expenditures per person $230. Registration deadline 6/30/2019, on a first-come, first-served basis. </span></TD>
 	  </TR>
 		<TR>
 		  <TD align="left" valign="top">2.</TD>
@@ -873,7 +876,7 @@ www.sonoma.edu/cec </td>
 
 <!-- end #mainContent --></div>
 <div id="footer">
-<p>基督之家製作 Copyright 2018, The Home of Christ Church. All rights
+<p>基督之家製作 Copyright 2019, The Home of Christ Church. All rights
 reserved.</p>
 <!-- end #footer --></div>
 <!-- end #container --></div>

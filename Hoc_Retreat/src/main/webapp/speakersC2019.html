@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>2019 HOC Summer Retreat</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" type="text/css" id="theme" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+        <div id="header"></div>
+    </header>
+    <div id="site_content">
+    <div id="sidebar_container"></div>   
+	<div class="content">
+        <h1>李秀全牧師/李林靜芝師母</h1>
+        <img src="images/pastorLee.png" width="160px" alt="" style="float: left; padding-left: 5px; padding-right: 5px;"/>
+        <div class="content_item">
+            <p>李牧師在台灣校園福音團契服事14年後，至美國芝加哥惠頓大學研究所深造。曾任波
+士頓郊區華人聖經教會主任牧師18年，於1995年加入中華海外宣道協會，作東南亞跨
+文化宣教事工6年。2001年回美後創立國際關懷協會推動普世宣教。目前為國際關懷協
+會榮譽會長</p>
+        </div>
+      </div>
+        
+	<div class="content">
+		<h1>邱志健牧師</h1>
+		<img src="images/PastorQiu.png" width="160px" alt="" style="float: left; padding-left: 5px; padding-right: 5px;"/>
+		<div class="content_item">
+			<p>邱牧師在臺灣大學主修化學工程，畢業後即獻身事主。1966-1989年為中國學園傳道會會
+長和兼任浸禮聖經會臺北會幕堂牧師。1989-2000年在美國亞特蘭大華人基督教會擔任主
+任牧師。目前為國際關懷協會資深宣教士導師。</p>
+				</div>
+	</div>
+
+	<div class="content">
+		<h1>盛行楚宣教士/盛李愛珍師母</h1>
+		<img src="images/MinisterSheng.png" width="160px" alt="" style="float: left; padding-left: 5px; padding-right: 5px;"/>
+		<div class="content_item">
+			<p>
+盛宣教士因上帝奇妙大能的改變，決定把工作之餘的時間都奉獻給上帝。也因自己曾有
+坐牢經歷，他常常到獄中分享見證，傳講使人得著真自由的福音。並多次到柬埔寨為當
+地人看病、建房、挖井，好讓他們感受到上帝的愛。目前為長駐柬埔寨宣教士。
+</p>
+		</div>
+	</div>
+        
+	
+      </div>
+    <footer>
+      <div id="footer"></div>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript">
+  $(document).ready(function() {
+      $('#header').load('templates/headerTemplate.html');
+      $('#footer').load('templates/footer.html');
+      $('#sidebar_container').load('templates/sidebar.html');
+      $('ul.sf-menu').sooperfish();
+  });
+  </script>
+</body>
+</html>

@@ -13,7 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" /> 
 <meta http-equiv="Pragma" content="no-cache" /> 
-<title>HOC Retreat 2018 - Retrieved Registration Page</title>
+<title>HOC Retreat 2019 - Retrieved Registration Page</title>
 <link href="stylesheets/retreat.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!-- /* specific for this page */
@@ -121,7 +121,7 @@ function programChange(selectObj,SerialN)
   else
   {
 	  // array of possible countries in the same order as they appear in the country selection list 
-	  var vList = ["認識阿兹海默症十大警訊及早期偵測的重要性","執子之手，與子偕老 ～ 從現代實証心理諮商看如何經營幸福婚姻","JNX敬拜事工培訓","English Youth Program","English Adult Program","未定 Undecided"];
+	  var vList = ["盛李愛珍師母 - 國際關懷協會事工","李林靜芝師母 - 家庭與宣教","盛行楚宣教士 - 柬埔寨的挑戰","但以理/百合宣教士 - 西亞的呼聲","English Youth Program","English Adult Program","未定 Undecided", "N/A"];
 	    
       // Adjust the topic select options	
 	  for (var i=0; i<vList.length+1; i++) { 
@@ -186,7 +186,7 @@ alert("Administration Priviledge Needed!");
 
 <div id="container">
 <div id="header">
-<h1>2018 基督之家聯合退修會報名表</h1>
+<h1>2019 基督之家聯合退修會報名表</h1>
 <br />
 <h3>The Home of Christ Church Joint Retreat Conference</h3>
 <!-- end #header --></div>
@@ -199,7 +199,7 @@ alert("Administration Priviledge Needed!");
 
 <div id="FormBlock">
 <font size="1">&nbsp;<br /></font>
-<span style="font-weight:bold; font-size:24px;">2018 退修會報名表 Retreat Registration Form</span>
+<span style="font-weight:bold; font-size:24px;">2019 退修會報名表 Retreat Registration Form</span>
 <% 
 //(String) request.getParameter("ConfirmID");
 String conf_id = (String)request.getSession().getAttribute("confirmationNumber"); 
@@ -408,22 +408,24 @@ if (isRemoved ||	// always continue if coming back from RemoveParticipantServlet
 				<OPTION></OPTION>
 				<OPTION value="M">中文成人</OPTION>
 				<OPTION value="E">English Adult</OPTION>
-				<OPTION value="Y">12~18 yr</OPTION>
+				<OPTION value="H">Grade 9-12</OPTION>
+				<OPTION value="D">Grade 6-8</OPTION>
 				<OPTION value="N">9~11 yr</OPTION>
 				<OPTION value="S">7~8 yr</OPTION>
 				<OPTION value="F">5~6 yr</OPTION>
-				<OPTION value="T">4 yr</OPTION>
-				<OPTION value="R">3 yr</OPTION>
+				<OPTION value="P">4 yr</OPTION>
+				<OPTION value="T">3 yr</OPTION>
 				<OPTION value="B">0~2 yr</OPTION>
 			</SELECT></TH>
 			<TH align="center" valign="middle"><SELECT Name="Topic_<%=i%>"  id="Topic_<%=i%>" size="1">
 			  <option></option>
-			  <option value="1">認識阿兹海默症十大警訊及早期偵測的重要性</option>		    
-			  <option value="2">執子之手，與子偕老 ～ 從現代實証心理諮商看如何經營幸福婚姻</option>
-			  <option value="3">JNX敬拜事工培訓</option>
-			  <option value="4">English Youth Program</option>
-			  <option value="5">English Adult Program</option>
-			  <option value="6">未定 Undecided</option>
+			  <option value="1">盛李愛珍師母 - 國際關懷協會事工</option>		    
+			  <option value="2">李林靜芝師母 - 家庭與宣教</option>
+			  <option value="3">盛行楚宣教士 - 柬埔寨的挑戰</option>
+			  <option value="4">但以理/百合宣教士 - 西亞的呼聲</option>
+			  <option value="5">English Youth Program</option>
+			  <option value="6">English Adult Program</option>
+			  <option value="7">未定 Undecided</option>
 			  <option value="X">N/A</option>
 			</SELECT></TH>
 			<TH align="center" valign="middle"><SELECT Name="Bed_<%=i%>"  id="Bed_<%=i%>""
@@ -480,7 +482,8 @@ if (isRemoved ||	// always continue if coming back from RemoveParticipantServlet
 				String noSelectionPC = "";
 							String isMPC = "";
 							String isEPC = "";
-							String isYPC = "";
+							String isHPC = "";
+							String isDPC = "";
 							String isNPC = "";
 							String isSPC = "";
 							String isFPC = "";
@@ -491,9 +494,11 @@ if (isRemoved ||	// always continue if coming back from RemoveParticipantServlet
 								isMPC = "selected=\"selected\"";
 							} else if (participant.getProgram().compareTo("E") == 0) {
 								isEPC = "selected=\"selected\"";
-							} else if (participant.getProgram().compareTo("Y") == 0) {
-								isYPC = "selected=\"selected\"";
-							} else if (participant.getProgram().compareTo("N") == 0) {
+							} else if (participant.getProgram().compareTo("H") == 0) {
+								isHPC = "selected=\"selected\"";
+							} else if (participant.getProgram().compareTo("D") == 0) {
+								isDPC = "selected=\"selected\"";
+							}else if (participant.getProgram().compareTo("N") == 0) {
 								isNPC = "selected=\"selected\"";
 							} else if (participant.getProgram().compareTo("S") == 0) {
 								isSPC = "selected=\"selected\"";
@@ -512,12 +517,13 @@ if (isRemoved ||	// always continue if coming back from RemoveParticipantServlet
 				<OPTION <%=noSelectionPC%>></OPTION>
 				<OPTION value="M" <%=isMPC%>>中文成人</OPTION>
 				<OPTION value="E" <%=isEPC%>>English Adult</OPTION>
-				<OPTION value="Y" <%=isYPC%>>12~18 yr</OPTION>
+				<OPTION value="H" <%=isHPC%>>Grade 9-12</OPTION>
+				<OPTION value="D" <%=isDPC%>>Grade 6-8</OPTION>
 				<OPTION value="N" <%=isNPC%>>9~11 yr</OPTION>
 				<OPTION value="S" <%=isSPC%>>7~8 yr</OPTION>
 				<OPTION value="F" <%=isFPC%>>5~6 yr</OPTION>
-				<OPTION value="T" <%=isPPC%>>4 yr</OPTION>
-				<OPTION value="R" <%=isTPC%>>3 yr</OPTION>
+				<OPTION value="P" <%=isPPC%>>4 yr</OPTION>
+				<OPTION value="T" <%=isTPC%>>3 yr</OPTION>
 				<OPTION value="B" <%=isBPC%>>0~2 yr</OPTION>
 			</SELECT></TH>
 			<TH align="center" valign="middle" size="15%">
@@ -570,12 +576,14 @@ if (isRemoved ||	// always continue if coming back from RemoveParticipantServlet
 			    
 %>
 				<OPTION <%=noSelectionT%>></OPTION>
-				<OPTION value="1" <%=T1%>>認識阿兹海默症十大警訊及早期偵測的重要性</OPTION>
-				<OPTION value="2" <%=T2%>>執子之手，與子偕老 ～ 從現代實証心理諮商看如何經營幸福婚姻</OPTION>
-				<OPTION value="3" <%=T3%>>JNX敬拜事工培訓</OPTION>
-				<OPTION value="4" <%=T4%>>English Youth Program</OPTION>
-			  	<option value="5" <%=T5%>>English Adult Program</option>
-			  	<option value="6" <%=T6%>>未定 Undecided</option>
+				<OPTION value="1" <%=T1%>>盛李愛珍師母 - 國際關懷協會事工/OPTION>
+				<OPTION value="2" <%=T2%>>李林靜芝師母 - 家庭與宣教</OPTION>
+				<OPTION value="3" <%=T3%>>盛行楚宣教士 - 柬埔寨的挑戰</OPTION>
+				<OPTION value="4" <%=T4%>>但以理/百合宣教士 - 西亞的呼聲</OPTION>
+				<OPTION value="5" <%=T5%>>English Youth Program</OPTION>
+			  	<option value="6" <%=T6%>>English Adult Program</option>
+			  	<option value="7" <%=T7%>>未定 Undecided</option>
+			  	<OPTION value="X" <%=T8%>>N/A</OPTION>
 <%
 				}
 %>
@@ -716,7 +724,7 @@ else {
 
 <!-- end #mainContent --></div>
 <div id="footer">
-<p>基督之家製作 Copyright 2018, The Home of Christ Church. All rights
+<p>基督之家製作 Copyright 2019, The Home of Christ Church. All rights
 reserved.</p>
 <!-- end #footer --></div>
 <!-- end #container --></div>
